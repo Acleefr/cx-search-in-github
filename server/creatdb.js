@@ -1,0 +1,21 @@
+    
+creatDb(){
+    table.string('login')
+    table.increments('id').primary()
+    table.string('node_id')
+    table.string('avatar_url')
+    table.string('gravatar_id')
+    table.string('url')
+    table.string('html_url')
+    table.string('followers_url')
+    table.string('following_url')
+    table.string('gists_url')
+    table.string('starred_url')
+    table.string('subscriptions_url')
+    table.string('organizations_url')
+    table.string('repos_url')
+    table.string('events_url')
+    table.string('received_events_url')
+    table.string('type')
+    table.boolean('site_admin')
+}
